@@ -1,0 +1,931 @@
+{
+ "repo": "assadollahi/kayra",
+ "commit": "100f3b7b447109989253179a5547fc84471deaa4",
+ "files": [
+  {
+   "path": ".gitignore",
+   "sha": "3367433295f123447ddaf9b0570ff582c8703184"
+  },
+  {
+   "path": "FCStd/10L_lower_arm.FCStd",
+   "sha": "52ccecf04ffd9d7b85058d6bb93108709e4deb48"
+  },
+  {
+   "path": "FCStd/10R_lower_arm.FCStd",
+   "sha": "af8fb96f03eb01c307e2e02cf0c42a7312a75901"
+  },
+  {
+   "path": "FCStd/1L_foot_bearing.FCStd",
+   "sha": "3d7756714019343063052519ee0def934f127269"
+  },
+  {
+   "path": "FCStd/1R_foot_bearing.FCStd",
+   "sha": "a1a363f963163c131c43e6b891e90ec23b069237"
+  },
+  {
+   "path": "FCStd/2L_footJoint_bearing.FCStd",
+   "sha": "258c54509862047c3ac2271f73796cfc7969749c"
+  },
+  {
+   "path": "FCStd/2R_footJoint_bearing.FCStd",
+   "sha": "a947a93dada0260e9e7cd147f0fd49b75817eeec"
+  },
+  {
+   "path": "FCStd/3BL_calf.FCStd",
+   "sha": "b1951d8bcdd893bba1008b873dd28aafaf0909ec"
+  },
+  {
+   "path": "FCStd/3BR_calf.FCStd",
+   "sha": "5bcb8567a77c8b1e65c3f4ee3fbf84568d488be8"
+  },
+  {
+   "path": "FCStd/3FU_shin.FCStd",
+   "sha": "dbc82142b5f3302f1562acebff4c07b180ac1a68"
+  },
+  {
+   "path": "FCStd/4L_knee.FCStd",
+   "sha": "b1820983b82284f1b5d8009f70f0dcf2a028e5f2"
+  },
+  {
+   "path": "FCStd/4R_knee.FCStd",
+   "sha": "b87525e17adfc2c98ab4c52907018cd72bdd7522"
+  },
+  {
+   "path": "FCStd/5L_hipjoint_lower.FCStd",
+   "sha": "b54c07249fc5b8b069015c766693072dc0ab6736"
+  },
+  {
+   "path": "FCStd/5L_hipjoint_upper_bearing.FCStd",
+   "sha": "4ccbee31d67046f6ddb1853c0117cf04bcb002ab"
+  },
+  {
+   "path": "FCStd/5R_hipjoint_lower.FCStd",
+   "sha": "311c8c222535cdfae89938bb945034dee0a73dcc"
+  },
+  {
+   "path": "FCStd/5R_hipjoint_upper_bearing.FCStd",
+   "sha": "ca829c26de8c011c4616a045c76dda10bb82cff4"
+  },
+  {
+   "path": "FCStd/6F_hipback.FCStd",
+   "sha": "3c03d9ac27c83c674f439ec7c5f7f72fe25fc53d"
+  },
+  {
+   "path": "FCStd/6F_hipfront.FCStd",
+   "sha": "f39c663bb44206cf62a491c57c1fdde8256b11ad"
+  },
+  {
+   "path": "FCStd/6F_hipfront2.FCStd",
+   "sha": "b1e1eded1a955c18d0f80f80bf482ece96825460"
+  },
+  {
+   "path": "FCStd/6F_hipfront2.FCStd1",
+   "sha": "259275121c2891d657a005a6d94b161adfcb913a"
+  },
+  {
+   "path": "FCStd/6L_hip_bearing.FCStd",
+   "sha": "6f43ba973cfc3025d9697530f1af47516f193e14"
+  },
+  {
+   "path": "FCStd/6R_hip_bearing.FCStd",
+   "sha": "c6bdecac300d92ade85baf810b192bd027561f7b"
+  },
+  {
+   "path": "FCStd/7B_chestback_controller.FCStd",
+   "sha": "2a3852d1bcd6f046ec334df087b6ae49dca2cf24"
+  },
+  {
+   "path": "FCStd/7F_chestbase_battery.FCStd",
+   "sha": "c48bf8850a0d2f9a0ff92cb5fa46feb6e70b9dc5"
+  },
+  {
+   "path": "FCStd/8L_shoulder_joint.FCStd",
+   "sha": "b44fe8f3f779fc7de18551007d5e3c25f2c65ff5"
+  },
+  {
+   "path": "FCStd/8R_shoulder_joint.FCStd",
+   "sha": "97d64751b34a9153818cf4383a18fdae95c59b48"
+  },
+  {
+   "path": "FCStd/9L_upper_arm.FCStd",
+   "sha": "7e0ab53f9d679a8989a69a3f7126ec52f72f5e3b"
+  },
+  {
+   "path": "FCStd/9R_upper_arm.FCStd",
+   "sha": "b17b42bbb8de5bbea8ed3677a90fe78638996a33"
+  },
+  {
+   "path": "FCStd/oldDesign/1L_foot.FCStd",
+   "sha": "d2c9a611b85f26a22faaabe874de05c342f8d933"
+  },
+  {
+   "path": "FCStd/oldDesign/1L_foot.FCStd1",
+   "sha": "a9288ea72e2bdb22362fb1aa30d8f5e17c7428f9"
+  },
+  {
+   "path": "FCStd/oldDesign/1L_foot_bearing.FCStd",
+   "sha": "568bb0dd9a18871d6669f6f782241c74e619adb8"
+  },
+  {
+   "path": "FCStd/oldDesign/1L_foot_bearing.FCStd1",
+   "sha": "478646f4ce5139371ff79e1e5790a7c403ca2177"
+  },
+  {
+   "path": "FCStd/oldDesign/1R_foot.FCStd",
+   "sha": "d0143c01708861852805c0156bdf02c646a01b0e"
+  },
+  {
+   "path": "FCStd/oldDesign/1R_foot.FCStd1",
+   "sha": "9de4b719a3f28e42ca672372e9b91fcd87a612e5"
+  },
+  {
+   "path": "FCStd/oldDesign/1R_foot_bearing.FCStd",
+   "sha": "0edcfae1e7761f843965036aac7ea43d30c7dd43"
+  },
+  {
+   "path": "FCStd/oldDesign/1R_foot_bearing2.FCStd",
+   "sha": "5979c4af4f4d32ccc6e88564b4e7823a4e8c2848"
+  },
+  {
+   "path": "FCStd/oldDesign/1R_foot_bearing2.FCStd1",
+   "sha": "ed961fe18f85def5ae4b38c8d86d31a5d360f9c7"
+  },
+  {
+   "path": "FCStd/oldDesign/2L_footJoint.FCStd",
+   "sha": "23a85627850ff5ea63d8225e690016ddc160fd48"
+  },
+  {
+   "path": "FCStd/oldDesign/2L_footJoint.FCStd1",
+   "sha": "70ec5d92617c6c5c38e40c993e32af7d97ddcb64"
+  },
+  {
+   "path": "FCStd/oldDesign/2L_footJoint_bearing.FCStd",
+   "sha": "b338b23defe380ff08b14466faa9ed500a9959a7"
+  },
+  {
+   "path": "FCStd/oldDesign/2L_footJoint_bearing.FCStd1",
+   "sha": "f82cced4d1f913f5426e951cd36a3cf90f00ee21"
+  },
+  {
+   "path": "FCStd/oldDesign/2R_footJoint.FCStd",
+   "sha": "194c643d17071fc18ecd5a5efb566bfff2647065"
+  },
+  {
+   "path": "FCStd/oldDesign/2R_footJoint.FCStd1",
+   "sha": "8712b349ef42d9c2804df2586c5ee6d3bc39bf97"
+  },
+  {
+   "path": "FCStd/oldDesign/2R_footJoint_bearing.FCStd",
+   "sha": "3f4f36c29f693fd45f42df6588c076e8f3685e1e"
+  },
+  {
+   "path": "FCStd/oldDesign/2R_footJoint_bearing.FCStd1",
+   "sha": "09fb5c8b6fd5a5872431b26462e1eee4039e255f"
+  },
+  {
+   "path": "FCStd/oldDesign/3BL_calf.FCStd",
+   "sha": "c6e0fce78a7989e72263cee965fdb4e03609e245"
+  },
+  {
+   "path": "FCStd/oldDesign/3BL_calf.FCStd1",
+   "sha": "86c08f668d0bdcdf7b13f95ceb1af063d829d6ff"
+  },
+  {
+   "path": "FCStd/oldDesign/3BR_calf.FCStd",
+   "sha": "775e09a346ccdf3ef913353362ddc1ebc9deae8a"
+  },
+  {
+   "path": "FCStd/oldDesign/3F_shin.FCStd",
+   "sha": "ed040f1609ee5b1e46df596eafd63c6e46a0ca7c"
+  },
+  {
+   "path": "FCStd/oldDesign/3F_shin.FCStd1",
+   "sha": "bdeeecd049b488a3a30c6c0b1dbe85c8cd5e3c63"
+  },
+  {
+   "path": "FCStd/oldDesign/5L_hipjoint_lower.FCStd",
+   "sha": "9cf7ecbd257bf08e35a960b6cc9535fbe79a755b"
+  },
+  {
+   "path": "FCStd/oldDesign/5L_hipjoint_lower.FCStd1",
+   "sha": "cb35d106994eea94d20ac545eff0e256b10df9ac"
+  },
+  {
+   "path": "FCStd/oldDesign/5L_hipjoint_upper.FCStd",
+   "sha": "4636ce58ca63d898b36e5879a70039e1813f0c1d"
+  },
+  {
+   "path": "FCStd/oldDesign/5L_hipjoint_upper.FCStd1",
+   "sha": "da1c9769fb8bca39ca50540bcf2f310893eaecfa"
+  },
+  {
+   "path": "FCStd/oldDesign/5R_hipjoint_lower.FCStd",
+   "sha": "625c1da5c93d08ceac12ded7753274d2c80ade0c"
+  },
+  {
+   "path": "FCStd/oldDesign/5R_hipjoint_lower.FCStd1",
+   "sha": "5eee21bae0e8df35dc46144ab4f731fd7b7ca263"
+  },
+  {
+   "path": "FCStd/oldDesign/5R_hipjoint_upper.FCStd",
+   "sha": "c02d160df269a378e8fe4477df0ad2528273d4a8"
+  },
+  {
+   "path": "FCStd/oldDesign/5R_hipjoint_upper.FCStd1",
+   "sha": "d58c8bb8d1e4f07cbf5c3821189d45086586c65f"
+  },
+  {
+   "path": "FCStd/oldDesign/6F_hipback.FCStd",
+   "sha": "83c95b83307c69b4b059570a2db62fe33336bda1"
+  },
+  {
+   "path": "FCStd/oldDesign/6F_hipback.FCStd1",
+   "sha": "57f855e3de211609f64d9e198e429ddd11617c0c"
+  },
+  {
+   "path": "FCStd/oldDesign/6F_hipfront.FCStd1",
+   "sha": "0cfff2755d16317c213f111a63de89c9f409afa1"
+  },
+  {
+   "path": "FCStd/oldDesign/6L_hip.FCStd",
+   "sha": "37d66012f9a966bd85892369aea1cd7541b582b0"
+  },
+  {
+   "path": "FCStd/oldDesign/6L_hip.FCStd1",
+   "sha": "ab394b4572405b65d843065ddc718d0edda7c0ce"
+  },
+  {
+   "path": "FCStd/oldDesign/6L_hip_bearing.FCStd",
+   "sha": "bed3b3f1195b4fad6bce7bf754d358365d1efb0b"
+  },
+  {
+   "path": "FCStd/oldDesign/6L_hip_bearing.FCStd1",
+   "sha": "bab9c120ccdfe64bed83f38b07758a8180cf8020"
+  },
+  {
+   "path": "FCStd/oldDesign/6R_hip.FCStd",
+   "sha": "fb854089d7aae275fa16a43b61da4fdc7bde2698"
+  },
+  {
+   "path": "FCStd/oldDesign/6R_hip.FCStd1",
+   "sha": "62ee8b25cef0d22cef491d163358e1f67c4d0d36"
+  },
+  {
+   "path": "FCStd/oldDesign/6R_hip_bearing.FCStd",
+   "sha": "7d4dd9f35b5dbfcd02e896d32c512dfcff233e3a"
+  },
+  {
+   "path": "FCStd/prototypes/ESP32CamCutOut.FCStd",
+   "sha": "92230f0d163d8f60ed33e7918fdf23e8849be2e9"
+  },
+  {
+   "path": "FCStd/prototypes/ESP32CamCutOut.FCStd1",
+   "sha": "f2b4bd8570ced40ee4ee6e7b61e44f99e9cf82df"
+  },
+  {
+   "path": "FCStd/prototypes/TVHead.FCStd",
+   "sha": "876727dd7c0864e2cd04b8dc149e71962bfb4b0f"
+  },
+  {
+   "path": "FCStd/prototypes/TVHead.FCStd1",
+   "sha": "c77e3cd8c6950b20c4167d9538300ba4a649b454"
+  },
+  {
+   "path": "FCStd/prototypes/bearing_inner_test.FCStd",
+   "sha": "71b28426c72ac10ed86df125eb94951017a19c9a"
+  },
+  {
+   "path": "FCStd/prototypes/bearing_inner_test.FCStd1",
+   "sha": "fcd04d89aceb007ceb00d9b49029d6c50d93ab49"
+  },
+  {
+   "path": "FCStd/prototypes/bearing_outer_test.FCStd",
+   "sha": "9bb41c40401f33055c318b8f6932a8b6af63ccd3"
+  },
+  {
+   "path": "FCStd/prototypes/bearing_outer_test.FCStd1",
+   "sha": "e2475ff4e3f7c2b322dc9459a542610184143bcf"
+  },
+  {
+   "path": "FCStd/prototypes/camAndDisplayHolder.FCStd",
+   "sha": "9276ebe211d356afd61191dbdd370607cf14dcda"
+  },
+  {
+   "path": "FCStd/prototypes/camAndDisplayHolder.FCStd1",
+   "sha": "ac3231b6ba35e4e57b657d732858578e7e09c9ef"
+  },
+  {
+   "path": "FCStd/prototypes/camAndDisplayHolder2.FCStd",
+   "sha": "c985e982e7770eaeed732705a711ddb059927ad8"
+  },
+  {
+   "path": "FCStd/prototypes/camAndDisplayHolder2.FCStd1",
+   "sha": "04a58a21286900c68a8f6ea31101bdbd303fe314"
+  },
+  {
+   "path": "FCStd/prototypes/headBigServoHolder.FCStd",
+   "sha": "14c4e1045aed04f47bc8b532cfd50f562b7531c0"
+  },
+  {
+   "path": "FCStd/prototypes/headBigServoHolder.FCStd1",
+   "sha": "e79b6d1e02584588d2003ecb6c4f7a7fba8d1192"
+  },
+  {
+   "path": "FCStd/prototypes/headPlateBigServo.FCStd",
+   "sha": "4ecfce8b3b9c0a236bef3edf27a1359fa8fa0295"
+  },
+  {
+   "path": "FCStd/prototypes/headPlateSmallServo.FCStd",
+   "sha": "a6a559f240436bbdb733ea3dfbe663e0ff5d0317"
+  },
+  {
+   "path": "FCStd/prototypes/headPlateSmallServo.FCStd1",
+   "sha": "8872f92b7a7abd3b45475c3ef3a68db9b2331515"
+  },
+  {
+   "path": "FCStd/prototypes/headSmallServoHolder.FCStd",
+   "sha": "b6285131799cadc1434f5cbb250351078a1a2129"
+  },
+  {
+   "path": "FCStd/prototypes/headSmallServoHolder.FCStd1",
+   "sha": "9ceb88ae3ace220db5c1b20318314c070fe9f98b"
+  },
+  {
+   "path": "FCStd/prototypes/neckHornSmall.FCStd",
+   "sha": "0afbb91e75aa6c2cca61e0cc174460f129f6af39"
+  },
+  {
+   "path": "FCStd/prototypes/neckHornSmall.FCStd1",
+   "sha": "226553e14bf9993ff142b89cf76ba1c0281840fa"
+  },
+  {
+   "path": "FCStd/prototypes/neckHornSmallHollow.FCStd",
+   "sha": "20751d49d7adcf3d3a2e93f8f0ca969a7a72dfff"
+  },
+  {
+   "path": "FCStd/prototypes/neckHornSmallHollow.FCStd1",
+   "sha": "9d24217817f1c2698b684bf97a6eb86df40b0e7d"
+  },
+  {
+   "path": "FCStd/prototypes/neckHornSmallHollow2.FCStd",
+   "sha": "82c54b94adefe785c8c3dcb7011702c88da53abe"
+  },
+  {
+   "path": "FCStd/prototypes/neckHornSmallHollow2.FCStd1",
+   "sha": "f35fef2e2c939c5b482dfc4879c92d6c5d2f2da3"
+  },
+  {
+   "path": "FCStd/prototypes/servoHolder.FCStd",
+   "sha": "f5b18f79d058bc9542b3e37ff9861ab3b9a7613b"
+  },
+  {
+   "path": "FCStd/prototypes/servoHolder.FCStd1",
+   "sha": "3621cedb90b55c67eb60cd3fc13e98a60a3a573e"
+  },
+  {
+   "path": "FCStd/prototypes/servoHorn.FCStd",
+   "sha": "d428c157d56762a05c55bea3124438c2f02d135a"
+  },
+  {
+   "path": "FCStd/prototypes/servoHorn.FCStd1",
+   "sha": "2a23bc644482847dbb92bc4a10e44110a3965a92"
+  },
+  {
+   "path": "FCStd/servoBlock.FCStd",
+   "sha": "9129c3f0781455a3bd50f312fd5094174c9c5e0a"
+  },
+  {
+   "path": "LICENSE",
+   "sha": "24b2ee21dd4850e121b2a39ae32128e14b2b41d2"
+  },
+  {
+   "path": "Pics/3F_shin.png",
+   "sha": "12895631a678b04d17cc325a179e4db16320ea74"
+  },
+  {
+   "path": "Pics/4R_knee.png",
+   "sha": "f5c5f1a7cdedaa133a1beaa8c46273e61187f1ca"
+  },
+  {
+   "path": "Pics/5R_hipjoint_design.png",
+   "sha": "508184059561125b43ba4686721db5c46cacd694"
+  },
+  {
+   "path": "Pics/5R_hipjoint_measures.png",
+   "sha": "2f3def1fb99dbe07e4c428d405e09268f47610a1"
+  },
+  {
+   "path": "Pics/anklePlate.png",
+   "sha": "503175122fe441ad7f92b42a4c22c597b80b2c7a"
+  },
+  {
+   "path": "Pics/footChamfer.png",
+   "sha": "891607eae231d020a3825348482fc55a3d42831d"
+  },
+  {
+   "path": "Pics/kayra_assembled.png",
+   "sha": "caf9d5b3b87c7fd6d5a036d8009007a957380c08"
+  },
+  {
+   "path": "Pics/parts_naming.png",
+   "sha": "9a9497bded6b1c1fa0e4722ece4cd6e128b5e05e"
+  },
+  {
+   "path": "README.md",
+   "sha": "bf450ebd4bf5f3f2c215a16722f14c84f7f7975a"
+  },
+  {
+   "path": "STL/10L_lower_arm-Body.stl",
+   "sha": "a4a4e5ef87b4ff471fa7acd8ca58bc6c722eb0f6"
+  },
+  {
+   "path": "STL/10R_lower_arm-Body.stl",
+   "sha": "351f0ee41d06cf2262062bf00e4c467baf6bfca1"
+  },
+  {
+   "path": "STL/1L_foot_bearing-BodySketch.stl",
+   "sha": "3cb67c41242ec583fb524a42870c726eb665ad93"
+  },
+  {
+   "path": "STL/1R_foot_bearing-BodySketch.stl",
+   "sha": "6cc5e453a4c7c3b45204a95075372e80e9a31673"
+  },
+  {
+   "path": "STL/2L_footJoint_bearing-Body.stl",
+   "sha": "95a7f13396d402b9b2c4a6bbd603e66f6805b3a5"
+  },
+  {
+   "path": "STL/2R_footJoint_bearing-Body.stl",
+   "sha": "93840da7da2b4f8f0f3701252d7e9385369560d1"
+  },
+  {
+   "path": "STL/3BL_calf-Body.stl",
+   "sha": "f86765176329450436399354b5c3f9a702c10cce"
+  },
+  {
+   "path": "STL/3BR_calf-Body.stl",
+   "sha": "e6724a033391bd139c7d86ae610e12d1a7e7e272"
+  },
+  {
+   "path": "STL/3FU_shin-Body.stl",
+   "sha": "21ec8e7b85ced55f0926e4ba1ac3fcb52b23d8b4"
+  },
+  {
+   "path": "STL/4L_knee-Body.stl",
+   "sha": "6f73c09e246a0f3bf51dcd78de48ee98bc00f716"
+  },
+  {
+   "path": "STL/4R_knee-Body.stl",
+   "sha": "9294f4726a855b20d2cd473827f6ce227f74373c"
+  },
+  {
+   "path": "STL/5L_hipjoint_lower-Body.stl",
+   "sha": "24487486fee14213ebce8b76f10332999434b652"
+  },
+  {
+   "path": "STL/5L_hipjoint_upper_bearing-Body.stl",
+   "sha": "23fa185acb0e16b8396364a4e2d206507c0d82c7"
+  },
+  {
+   "path": "STL/5R_hipjoint_lower-Body.stl",
+   "sha": "adbe21865a2cf421277d20b17c3472ddb85f8f85"
+  },
+  {
+   "path": "STL/5R_hipjoint_upper_bearing-Body.stl",
+   "sha": "de3e63bba98841f4efe7a017148d2552995c4d72"
+  },
+  {
+   "path": "STL/6F_hipback-Body.stl",
+   "sha": "2a1f12dd8881c56c7a7bf4a0be039b7f992c7b28"
+  },
+  {
+   "path": "STL/6F_hipfront-Body.stl",
+   "sha": "7ed36c0ba18dc1a232fcace09abf8ad8402a8071"
+  },
+  {
+   "path": "STL/6F_hipfront2-Body.stl",
+   "sha": "49896581bdfddc0d51cd0a2d2f9359b14e5f9cb4"
+  },
+  {
+   "path": "STL/6L_hip_bearing-Body.stl",
+   "sha": "b38104a89b94d4e4315dd684bce8555375d178d9"
+  },
+  {
+   "path": "STL/6R_hip_bearing-Body.stl",
+   "sha": "a4153f49c9e658119bde585df766d616173887b1"
+  },
+  {
+   "path": "STL/7B_chestback_controller-Body.stl",
+   "sha": "d238c86749c35114112a279e71449358eef7c6dd"
+  },
+  {
+   "path": "STL/7F_chestbase_battery-Body.stl",
+   "sha": "f4706d3d2e7dad6245e692680d4c35fed10daece"
+  },
+  {
+   "path": "STL/8L_shoulder_joint-Body.stl",
+   "sha": "9a87ce672c34e62237249ba62b37987ebb70edf6"
+  },
+  {
+   "path": "STL/8R_shoulder_joint-Body.stl",
+   "sha": "e499203cd52377b21862bb2e9c724ef109d578b9"
+  },
+  {
+   "path": "STL/9L_upper_arm-Body.stl",
+   "sha": "6db8932bafca5fd64e89f4c9eda7f945ba798f6e"
+  },
+  {
+   "path": "STL/9R_upper_arm-Body.stl",
+   "sha": "910af197d87015e5a75ba37a86ecc4eb1dced1ed"
+  },
+  {
+   "path": "STL/oldDesign/1L_foot-Body.stl",
+   "sha": "98b89f098636d59c802785ff4b006c5914349f13"
+  },
+  {
+   "path": "STL/oldDesign/1L_foot_bearing_Body.stl",
+   "sha": "462de3b361fe7ccdbaa154aaad805aefe47fbcf6"
+  },
+  {
+   "path": "STL/oldDesign/1R_foot-Body.stl",
+   "sha": "92292abd74f5bab13b45c8d8ab94608c1e0dc3e8"
+  },
+  {
+   "path": "STL/oldDesign/1R_foot_bearing_Body.stl",
+   "sha": "c22e7f067656880c15860b2103025aa4f7857604"
+  },
+  {
+   "path": "STL/oldDesign/2L_footJoint-Body.stl",
+   "sha": "714440d6b0724d3a8fac0a5d0133c7dea4c51982"
+  },
+  {
+   "path": "STL/oldDesign/2L_footJoint_bearing-Body.stl",
+   "sha": "a29a4185b60c166faeb6e8e341c121322416f4ce"
+  },
+  {
+   "path": "STL/oldDesign/2R_footJoint-Body.stl",
+   "sha": "62c9a7300b8afafe396d4b566b1d0f953b34479b"
+  },
+  {
+   "path": "STL/oldDesign/2R_footJoint_bearing-Body.stl",
+   "sha": "86ff42644129b2568a67a23701b8fd0d68fc6ff5"
+  },
+  {
+   "path": "STL/oldDesign/3BL_calf-Body.stl",
+   "sha": "0b3e5c00028223bddc4fcfa127affb00e2271830"
+  },
+  {
+   "path": "STL/oldDesign/3BR_calf-Body.stl",
+   "sha": "8b898e328c44b22ea7c04888fed3bb72ca22ce80"
+  },
+  {
+   "path": "STL/oldDesign/3F_shin-Body.stl",
+   "sha": "23300800705052c5657f902c1ad8d97ff8797dc2"
+  },
+  {
+   "path": "STL/oldDesign/5L_hipjoint_lower-Body.stl",
+   "sha": "3fdca6441fb7ce1df3237e7cbacd20fd38347bee"
+  },
+  {
+   "path": "STL/oldDesign/5L_hipjoint_upper-Body.stl",
+   "sha": "82043cafbe01ab46d974272cd7a98e8c35a09976"
+  },
+  {
+   "path": "STL/oldDesign/5R_hipjoint_lower-Body.stl",
+   "sha": "84198019cb16e45dd1b21a88a96ca01d0527e526"
+  },
+  {
+   "path": "STL/oldDesign/5R_hipjoint_upper-Body.stl",
+   "sha": "4d8e67a2094430e592b6fb4ad9be1c277fb09988"
+  },
+  {
+   "path": "STL/oldDesign/6B_hipback-Body.stl",
+   "sha": "89e7a4f263481d39cf7d469ec3ab74c216401e0a"
+  },
+  {
+   "path": "STL/oldDesign/6F_hipfront-Body.stl",
+   "sha": "766fa657b48d261f29e8820293f023bead41cd2d"
+  },
+  {
+   "path": "STL/oldDesign/6L_hip-Body.stl",
+   "sha": "003a8aee8267b658001f12e0480fe2c11e73e4bc"
+  },
+  {
+   "path": "STL/oldDesign/6L_hip_bearing-Body.stl",
+   "sha": "91aa518e1ae10731f3ba6092f2186c2805ce515c"
+  },
+  {
+   "path": "STL/oldDesign/6R_hip-Body.stl",
+   "sha": "1c7de7597b91f8377b981a575e4071e3aa684dd8"
+  },
+  {
+   "path": "STL/oldDesign/6R_hip_bearing-Body.stl",
+   "sha": "b6a9aabda8ee2dd9eafbf9761cfde9bf9ed123f5"
+  },
+  {
+   "path": "STL/oldDesign/right-foot_1.stl",
+   "sha": "0d5de8b6bcca71f7d6ecde73b70454602594e809"
+  },
+  {
+   "path": "STL/oldDesign/right-foot_2.stl",
+   "sha": "bf680a52ff7801d8d58a951b02f9c42795492782"
+  },
+  {
+   "path": "STL/prototypes/ESP32CamCutOut-Body.stl",
+   "sha": "53efbf3369ec7f8aab992252fd6803deec8ab905"
+  },
+  {
+   "path": "STL/prototypes/TVHead-Body.stl",
+   "sha": "a81473286ea58b609bfd3ac890b5211e2d28e775"
+  },
+  {
+   "path": "STL/prototypes/bearing_inner_test-Body.stl",
+   "sha": "535fa6f8fcc16dad94456655c4890a54e6e4d00f"
+  },
+  {
+   "path": "STL/prototypes/bearing_outer_test-Body.stl",
+   "sha": "251b3dc8bac884e5e5981b84c8aabb917bcec7fc"
+  },
+  {
+   "path": "STL/prototypes/camAndDisplayHolder-Body.stl",
+   "sha": "464833aec4ad3fd51e69d28c420a6f1303c34784"
+  },
+  {
+   "path": "STL/prototypes/camAndDisplayHolder2-Body.stl",
+   "sha": "7e09878f69c92701473ce13bec37b666b3029416"
+  },
+  {
+   "path": "STL/prototypes/headPlate-Body.stl",
+   "sha": "fd1ab6b7ae2ff396aca1a0e5f66fafee13acf8d0"
+  },
+  {
+   "path": "STL/prototypes/headPlateSmallServo-Body.stl",
+   "sha": "77308f6570e1860f0cec6208a3d0465de4b6e3bf"
+  },
+  {
+   "path": "STL/prototypes/headServoHolder-Body.stl",
+   "sha": "6d5f52fcd010aaba9e37005c065871b2035945c5"
+  },
+  {
+   "path": "STL/prototypes/headSmallServoHolder-Body.stl",
+   "sha": "844a4813490b1a75d34b89f357f88826c8a3942c"
+  },
+  {
+   "path": "STL/prototypes/neckHornSmall-Body.stl",
+   "sha": "1b196014e260d578f2485ed57a75d7499b1d59e5"
+  },
+  {
+   "path": "STL/prototypes/neckHornSmallHollow2-Body.stl",
+   "sha": "154d553be96ef19c050d233aa4da020e7f24baec"
+  },
+  {
+   "path": "STL/prototypes/servoHolder-Body.stl",
+   "sha": "2403a7e07e07ac5b93b60169cf3b8b0941140434"
+  },
+  {
+   "path": "STL/prototypes/servoHorn-Body.stl",
+   "sha": "9e68ebaeaf41d121b9c387f26a117049b3939a4f"
+  },
+  {
+   "path": "STL/servoBlock-Body.stl",
+   "sha": "77c47bc5cbd920c6657f6d803a529d34786e11e9"
+  },
+  {
+   "path": "STL/simplified/1L_foot-Body_simplified.stl",
+   "sha": "68d2a472b84d173ac7435b2756c6357502f6c496"
+  },
+  {
+   "path": "STL/simplified/1R_foot-Body_simplified.stl",
+   "sha": "4d3cb0bde5e40b2b9ba82f6039198f06a597ea93"
+  },
+  {
+   "path": "WIRING.md",
+   "sha": "ff46550272394d0bffc4307e170b3cd7e56973bb"
+  },
+  {
+   "path": "mujoco/fourBars.xml",
+   "sha": "2c9cf77155f07911cd85bac3a2db9dbad80f11ae"
+  },
+  {
+   "path": "mujoco/hello.xml",
+   "sha": "03bc4801df0ff89316338f834a7cf1467c52abfb"
+  },
+  {
+   "path": "mujoco/helloLink.xml",
+   "sha": "57db60a6b0c132b5e0d9cafb91707dcc6964c898"
+  },
+  {
+   "path": "mujoco/interactive.py",
+   "sha": "bda9c5e400fc3d549b35d9ae639cc10fbe856294"
+  },
+  {
+   "path": "mujoco/kayra.xml",
+   "sha": "8c2aecbaf1f13311cb0016c529e0edd93f4edf40"
+  },
+  {
+   "path": "mujoco/kayraCircle.xml",
+   "sha": "54996635601c17534700e5c7d2079e4a33c19845"
+  },
+  {
+   "path": "mujoco/kayraLink.xml",
+   "sha": "fc7ee6be292a6ba20438b9f488b9930f4c284ef5"
+  },
+  {
+   "path": "mujoco/kayraLowerBody.xml",
+   "sha": "2f9c11215fbf78df29aedcb41eefd89c38f79e0d"
+  },
+  {
+   "path": "mujoco/leanViewer.py",
+   "sha": "48e5068879da1959779e3e748b2ed136a4f96c7e"
+  },
+  {
+   "path": "mujoco/plots.py",
+   "sha": "7f7318ab73562d2c72450044841f182e77e0504c"
+  },
+  {
+   "path": "mujoco/readme.md",
+   "sha": "70b9677ed0fde367385bfcfebb5c212d69453af0"
+  },
+  {
+   "path": "mujoco/requirements.txt",
+   "sha": "8d9c1f54d5cf721a9420910f7ea517bdb35fe3e5"
+  },
+  {
+   "path": "mujoco/simulateAnimation.py",
+   "sha": "73c83e451c4bd7b4d8ff59d8eb68e1cee2b2c20b"
+  },
+  {
+   "path": "software/README.md",
+   "sha": "50105b0d2bb7a0af0904b13c865aa43e26413a98"
+  },
+  {
+   "path": "software/host/README.md",
+   "sha": "e740452c0465e565bdfc2cd7ac783ba95de612bf"
+  },
+  {
+   "path": "software/host/clientWifi.py",
+   "sha": "06faf7350678556c87f67a07672211023c23d912"
+  },
+  {
+   "path": "software/host/interactiveServo.py",
+   "sha": "2060a3c4e273704652da3b5d9a5a6c622e49bbc8"
+  },
+  {
+   "path": "software/host/servoControl.json",
+   "sha": "689bd204f2cf1213865ecb564a8158369bcce4d5"
+  },
+  {
+   "path": "software/host/servoValues.json",
+   "sha": "9858a0d52ef6fc4fe120d9dd90584d612b6a6193"
+  },
+  {
+   "path": "software/host/tools/getHostIP.py",
+   "sha": "b498febf8b48641c10b6527f31fda39d8d0ebbd2"
+  },
+  {
+   "path": "software/host/tools/identifyServo.py",
+   "sha": "32cf2d9903bbeb72a4042964e044dc16a8d2ee6e"
+  },
+  {
+   "path": "software/host/tools/serialPortInfo.py",
+   "sha": "bb559ffa7a5b47c229499e21c8dd5c20f98ab116"
+  },
+  {
+   "path": "software/requirements.txt",
+   "sha": "d93713ea6bc9ef339f6b9ce730f5e9402a7e14d4"
+  },
+  {
+   "path": "software/robot/README.md",
+   "sha": "f0d08919fee720d0920ecf602ca8093c6ce99e8e"
+  },
+  {
+   "path": "software/robot/body/README.md",
+   "sha": "b8148c8ca94a6e48c1a71467e434ecd41124aaed"
+  },
+  {
+   "path": "software/robot/body/archive/servoControlLowerBody.json",
+   "sha": "77d9b32fb89660a5f799d32803785eed71a5749f"
+  },
+  {
+   "path": "software/robot/body/archive/servoControlUpperBody.json",
+   "sha": "bf43d31cb77a24c885a27a3572820561775c9094"
+  },
+  {
+   "path": "software/robot/body/archive/servoValues.backup",
+   "sha": "962032b4ec0f708d21cc829a701ab8031ec827f7"
+  },
+  {
+   "path": "software/robot/body/i2cListener.py",
+   "sha": "bfb6dbc95c741309bd34413c6a87e03fb77e699e"
+  },
+  {
+   "path": "software/robot/body/i2cServosCluster.py",
+   "sha": "1cdace3237448255b4d2d9397dfcc38d660d6423"
+  },
+  {
+   "path": "software/robot/body/i2cSlave.py",
+   "sha": "37277b353df0c0d88690b91fc849f8cf67e57f37"
+  },
+  {
+   "path": "software/robot/body/inverseKinematics.py",
+   "sha": "340e374e4b808821401046220f1ca08070118a71"
+  },
+  {
+   "path": "software/robot/body/tools/README.md",
+   "sha": "4a7605b8d8d585f5978a964bf17fa21e704b69e9"
+  },
+  {
+   "path": "software/robot/body/tools/servoClusterTest.py",
+   "sha": "b9683cfa5c8d13aa843dc25bc07b9a0c3725ce1e"
+  },
+  {
+   "path": "software/robot/body/usbServos.py",
+   "sha": "783bbf27b80dcc29e198a4e89d4bf2348df1c99a"
+  },
+  {
+   "path": "software/robot/body/usbServosCluster.py",
+   "sha": "163cf93d56109c9f3c417aca4899330e42386878"
+  },
+  {
+   "path": "software/robot/head/README.md",
+   "sha": "5d3911c4ca205d7b9a1a035fba94fb219fcececc"
+  },
+  {
+   "path": "software/robot/head/commandViaWifiToI2C.py",
+   "sha": "b069dc17d2626bf33926fa6cb732b3dc22c2d377"
+  },
+  {
+   "path": "software/robot/head/connectWifi.py",
+   "sha": "50f7c5b05b882ad21533eefec10c1abbee98a3db"
+  },
+  {
+   "path": "software/robot/head/firmware/README.md",
+   "sha": "b662920b9790174c5932e6e098f51e4e96a19ede"
+  },
+  {
+   "path": "software/robot/head/firmware/cameraFirmware20230607.bin",
+   "sha": "e7e6b64958cdf05decf6d45f9809d56f15bc1ddf"
+  },
+  {
+   "path": "software/robot/head/firmware/displayFirmware20230604.bin",
+   "sha": "1630091ad888222166f356e3c4ceadc5c5767cc1"
+  },
+  {
+   "path": "software/robot/head/firmware/esp32spiram-20230426-v1.20.0.bin",
+   "sha": "f5edb032bf11d3c66aa486332b168907dd3bb1bf"
+  },
+  {
+   "path": "software/robot/head/tools/i2cScanESP32.py",
+   "sha": "849ed7f1a908eb805d715c5396e4367efed04ed3"
+  },
+  {
+   "path": "software/robot/head/tools/sendI2CCmd.py",
+   "sha": "6d96e77d6e4cd475d037ecead836868b2e914273"
+  },
+  {
+   "path": "software/robot/head/tools/serverWifi.py",
+   "sha": "66951df2dfc64836cf19c05d1256c67bb0438223"
+  },
+  {
+   "path": "software/robot/sensors/bno055.py",
+   "sha": "1407583cd5ac1fddd758ed3124db3fca0a8e5812"
+  },
+  {
+   "path": "software/robot/sensors/bno055_base.py",
+   "sha": "136019551243c5925bc58ffb9b1f08391cdb4dde"
+  },
+  {
+   "path": "software/robot/sensors/imuTest.py",
+   "sha": "fff46b85f499288362357c54653a6894648050dd"
+  },
+  {
+   "path": "software/robot/sensors/sensorReadControlServo.py",
+   "sha": "5cce11d3193604eb05abf119ef9f23675fea3719"
+  },
+  {
+   "path": "software/robot/sensors/sensorReadOut.py",
+   "sha": "c80a5e2ba2cccc68f15ad5f3eef98f38f89d1812"
+  },
+  {
+   "path": "software/robot/tools/i2cTest.py",
+   "sha": "670649018345d7d9a5a686f9fe22ac829ca09fd8"
+  },
+  {
+   "path": "software/robot/tools/serialSendTest.py",
+   "sha": "6ba6e7f7d0b4213fb4d3c708f1ad1ad83e731b71"
+  },
+  {
+   "path": "software/robot/tools/uartReader.py",
+   "sha": "815c628ceb23f1ee3ee6b3795dd8921ef46b4339"
+  },
+  {
+   "path": "software/servoMap.json",
+   "sha": "b0bcb90133b4c3d3a9a68202b5beb03645bfaf92"
+  },
+  {
+   "path": "software/servoMapLib.py",
+   "sha": "b1eb3aaa56fdecb517251806e400ce0d88f72dd5"
+  }
+ ],
+ "excluded": []
+}
