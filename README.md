@@ -65,6 +65,10 @@ Based on Kayra by Ramin Assadollahi and the Kayra community, BSD-3-Clause. Chang
 - FreeCAD design files, including bearing seats: `source/upstream/FCStd/` in this repository.
 - Project documentation and wiki: https://kayra.org
 
+## Bill of Material
+
+[Bill of Material (PDF)](docs/Kayra%20Humanoid%20Robot%20-%20Bill%20of%20Material.pdf): every part to buy, with shop links.
+
 ## Documentation download
 
 This repository is the documentation and source download for the build.
